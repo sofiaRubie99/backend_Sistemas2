@@ -1,0 +1,10 @@
+[build]
+  functions = "src/netlify/functions-build"  # Carpeta donde se colocan las funciones construidas
+  publish = "dist"  # Si tienes una carpeta de build para el frontend, cámbiala según corresponda
+
+[dev]
+  framework = "#custom"
+  command = "npm run serve:functions"
+
+[build.environment]
+  NODE_VERSION = "16" 
