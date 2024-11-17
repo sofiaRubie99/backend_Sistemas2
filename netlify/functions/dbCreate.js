@@ -3,6 +3,10 @@
 const redis = require("./redisDB");
 const headers = require("./headersCORS");
 
+function toJson(item, index, arr) {
+  arr[index] = JSON.parse(item);
+}
+
 // Datos para inicializar
 const supercars = [
     {
