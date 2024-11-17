@@ -150,46 +150,46 @@ const designers = [
   ];
 
 const manufacturers = [
-    {
-      "id": 1,
-      "name": "Filippo Perini",
-      "nationality": "Italian",
-      "born_year": 1973,
-      "description": "Former chief designer for Lamborghini, known for creating iconic models like the Aventador and Huracán.",
-      "image": "designers/filippo-perini.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Flavio Manzoni",
-      "nationality": "Italian",
-      "born_year": 1965,
-      "description": "Ferrari’s chief designer responsible for creating masterpieces like the LaFerrari and F12 Berlinetta.",
-      "image": "designers/flavio-manzoni.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Michael Mauer",
-      "nationality": "German",
-      "born_year": 1962,
-      "description": "Head of design at Porsche, known for shaping the modern evolution of the iconic 911.",
-      "image": "designers/michael-mauer.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Frank Stephenson",
-      "nationality": "American",
-      "born_year": 1959,
-      "description": "Former McLaren designer responsible for the P1 and other groundbreaking supercars.",
-      "image": "designers/frank-stephenson.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Achim Anscheidt",
-      "nationality": "German",
-      "born_year": 1967,
-      "description": "Head of design at Bugatti, overseeing the creation of models like the Veyron and Chiron.",
-      "image": "designers/achim-anscheidt.jpg"
-    }
+  {
+    "id": 1,
+    "name": "Lamborghini",
+    "country": "Italy",
+    "founded_year": 1963,
+    "description": "A luxury sports car manufacturer known for producing high-performance, exotic supercars.",
+    "logo": "manufacturers/lamborghini-logo.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ferrari",
+    "country": "Italy",
+    "founded_year": 1939,
+    "description": "An iconic brand in motorsport and luxury supercars, known for its prancing horse emblem.",
+    "logo": "manufacturers/ferrari-logo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Porsche",
+    "country": "Germany",
+    "founded_year": 1931,
+    "description": "A high-performance automaker famous for its 911 model and engineering excellence.",
+    "logo": "manufacturers/porsche-logo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "McLaren",
+    "country": "United Kingdom",
+    "founded_year": 1963,
+    "description": "A leading name in Formula 1 and road-going supercars, known for cutting-edge technology.",
+    "logo": "manufacturers/mclaren-logo.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bugatti",
+    "country": "France",
+    "founded_year": 1909,
+    "description": "A legendary manufacturer producing some of the fastest and most luxurious hypercars in the world.",
+    "logo": "manufacturers/bugatti-logo.jpg"
+  }
   ];
 
 // Utilidad para almacenar datos en Redis
