@@ -2,6 +2,7 @@
 
 require('dotenv').config(); // Carga las variables del archivo .env
 const { createClient } = require('redis');
+console.log(process.env.REDIS_HOST);
 
 // Configura el cliente de Redis
 const client = createClient({
